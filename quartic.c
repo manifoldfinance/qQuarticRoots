@@ -178,8 +178,8 @@ void solve_quartic(t_c *c, t_res *roots)
 			double r = sqrt(pw(cub_roots.real,2) + pw(cub_roots.imag,2));
 			double y = sqrt((r - cub_roots.real) / 2);
 			double x = cub_roots.imag / (2 * y);
-			double root1_r = x;
-			double root2_i = y;
+			//double root1_r = x;
+			//double root2_i = y;
 			//printf("q = %f + %fi\n r = %f - %fi\n", x,y,x,y);
 			double pq = (x * x) - (y * -y);
 			//printf("p * q = %f\n", pq);
